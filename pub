@@ -1,0 +1,4 @@
+#!/bin/bash
+echo Publishing......
+rsync -avze ssh --delete --exclude='.*' output_prod/  aso:public_html/izne.ws/
+echo Done!

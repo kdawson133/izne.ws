@@ -1,0 +1,4 @@
+imports:
+    - sculpin_site.yml
+url: http://izne.ws
+baseurl: /

@@ -1,0 +1,17 @@
+---
+layout: page
+title: Tags
+header: /assets/img/tag.jpg
+use:
+    - posts_tags
+---
+
+<div class="tags">
+  {% for tag,posts in data.posts_tags %}
+    <a href="{{ site.url }}/archive/tags/{{ tag|url_encode(true) }}">
+      <span class="label label-default">
+        {{ tag }}
+      </span>
+    </a>&nbsp;
+  {% endfor %}
+</div>

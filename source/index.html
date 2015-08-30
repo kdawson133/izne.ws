@@ -1,0 +1,66 @@
+---
+layout: default
+title: Home
+generator: pagination
+pagination:
+    max_per_page: 5
+use:
+    - posts
+
+---
+
+{% block content_wrapper %}
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.url }}{{ site.header }}')">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="site-heading">
+                  <h1>{{ site.title }}</h1>
+                  <hr class="small">
+                  <span class="subheading">{{ site.subtitle }}</span>
+              </div>
+          </div>
+      </div>
+  </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    {% for post in page.pagination.items %}
+    <div class="post-preview">
+        <a href="{{ site.url }}{{ post.url}}">
+            <h2 class="post-title">
+              {{ post.title }}
+            </h2>
+            {% if post.description %}
+            <h3 class="post-subtitle">
+                {{ post.description }}
+            </h3>
+            {% endif %}
+        </a>
+        <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date("j F Y")}}</p>
+    </div>
+    
+    {% endfor %}
+    <ul class="pager">
+        {% if page.pagination.previous_page %}
+        <li class="next">
+            <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Posts &rarr;</a>
+        </li>
+        {% endif %}
+        {% if page.pagination.next_page %}
+        <li class="previous">
+            <a href="{{ site.url }}{{ page.pagination.next_page.url }}">&larr; Older Posts</a>
+        </li>
+        {% endif %}
+    </ul>
+  </div>
+</div>
+</div>
+
+
+{% endblock %}
