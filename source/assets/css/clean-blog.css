@@ -8,7 +8,15 @@ p {
   margin: 30px 0;
 }
 p a {
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  color: #0099FF;
+}
+p a:hover,
+p a:focus {
+  text-decoration: none;
+  border-bottom: 1px solid;
+  color: #337AB7;
 }
 p img {
   display: block;
@@ -96,7 +104,7 @@ hr.small {
     -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
     /* Force Hardware Acceleration in WebKit */
-  
+
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
@@ -107,7 +115,7 @@ hr.small {
   }
   .navbar-custom.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
-  
+
     position: fixed;
     top: -61px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -132,7 +140,7 @@ hr.small {
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
-  
+
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
     -ms-transform: translate3d(0, 100%, 0);
