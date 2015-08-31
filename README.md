@@ -1,8 +1,3 @@
 # izne.ws
 
-New izne.ws development site powered by [Sculpin](https://sculpin.io).
-
-To clone this project:
-
-    git clone git@helionexus.net:/git/izne.ws.git
-    
+Version 2.0 izne.ws production site powered by [Sculpin](https://sculpin.io).
