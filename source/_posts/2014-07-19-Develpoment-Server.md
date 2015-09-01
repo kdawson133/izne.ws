@@ -260,7 +260,7 @@ If you need [virtual hosts](/archive/2014/07/24/Apache-Virtual-Hosts) configured
 
 That’s it! You now have the native AMP stack running on of OSX Mavericks.
 
-[AllowOveride]: /images/httpd.conf.jpg
+[AllowOveride]: /images/httpd-conf.jpg
 [MySQL.DMG]: /images/mysql.dmg.png
 [installPrefPane]: /images/mysql-pref-pane.png
 [serverStart]: /images/start-mysql.png
