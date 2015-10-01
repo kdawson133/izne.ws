@@ -23,3 +23,11 @@ hr {
   height: 1px;
   background: #ccc;
 }
+div .article-code pre {
+  display: block;
+  padding: 0px;
+}
+div .article-code code {
+  white-space: nowrap;
+  overflow-x: auto;
+}
