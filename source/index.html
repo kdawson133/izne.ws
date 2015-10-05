@@ -44,17 +44,17 @@ use:
         </a>
         <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date("j F Y")}}</p>
     </div>
-    
+
     {% endfor %}
     <ul class="pager">
         {% if page.pagination.previous_page %}
         <li class="next">
-            <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Posts &rarr;</a>
+            <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Posts&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a>
         </li>
         {% endif %}
         {% if page.pagination.next_page %}
         <li class="previous">
-            <a href="{{ site.url }}{{ page.pagination.next_page.url }}">&larr; Older Posts</a>
+            <a href="{{ site.url }}{{ page.pagination.next_page.url }}"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Older Posts</a>
         </li>
         {% endif %}
     </ul>

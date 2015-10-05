@@ -10,6 +10,7 @@ use:
   {% for tag,posts in data.posts_tags %}
     <a href="{{ site.url }}/archive/tags/{{ tag|url_encode(true) }}">
       <span class="label label-default">
+        <i class="fa fa-tag"></i>
         {{ tag }}
       </span>
     </a>&nbsp;

@@ -20,7 +20,11 @@ use:
 {% set this_month %}{{ post.date | date("F") }}{% endset %}
 {% if month != this_month %}
   {% set month = this_month %}
-  <h1><strong><center>&mdash;{{ month }} {{ year }}&mdash;</center></strong></h1><hr>
+  <br /><br />
+  <h1><strong><center>
+    <span class="label label-success"><i class="fa fa-calendar">
+      </i>&nbsp;{{ month }} {{ year }}
+  </span></center></strong></h1>
 {% endif %}
 
   <div class="post-preview">
@@ -41,10 +45,10 @@ use:
 <nav>
   <ul class="pager">
     {% if page.pagination.next_page %}
-    <li class="previous"><a href="{{ site.url }}{{ page.pagination.next_page.url }}">&larr;Older Posts</a></li>
+    <li class="previous"><a href="{{ site.url }}{{ page.pagination.next_page.url }}"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Older Posts</a></li>
     {% endif%}
     {% if page.pagination.previous_page %}
-    <li class="next"><a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Posts&rarr;</a></li>
+    <li class="next"><a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Posts&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a></li>
     {% endif %}
   </ul>
 </nav>

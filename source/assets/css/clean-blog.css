@@ -8,25 +8,7 @@ p {
   margin: 30px 0;
 }
 p a {
-  text-decoration: none;
-  border-bottom: 1px dotted;
-  color: #0099FF;
-}
-p a:hover,
-p a:focus {
-  text-decoration: none;
-  border-bottom: 1px solid;
-  color: #337AB7;
-}
-p img {
-  display: block;
-  max-width: 100%;
-  max-height: 600px;
-  /*margin: 0 0 1rem;*/
-
-  border-radius: 5px;
-  margin-left: auto;
-  margin-right: auto;
+  text-decoration: underline;
 }
 h1,
 h2,
@@ -104,7 +86,6 @@ hr.small {
     -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
     /* Force Hardware Acceleration in WebKit */
-
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
@@ -115,7 +96,6 @@ hr.small {
   }
   .navbar-custom.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
-
     position: fixed;
     top: -61px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -140,7 +120,6 @@ hr.small {
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
-
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
     -ms-transform: translate3d(0, 100%, 0);
@@ -183,8 +162,8 @@ hr.small {
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
   font-size: 24px;
-  line-height: 1.1,
-			display: block;
+  line-height: 1.1;
+  display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
