@@ -24,10 +24,10 @@ hr {
   background: #ccc;
 }
 div .article-code pre {
-  display: block;
+  overflow-x: auto;
   padding: 0px;
 }
-div .article-code code {
-  white-space: nowrap;
-  overflow-x: auto;
+div .article-code pre code {
+  overflow-wrap: normal;
+  white-space: pre;
 }
