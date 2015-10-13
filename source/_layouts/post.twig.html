@@ -1,0 +1,65 @@
+{% extends "default" %}
+{% block content_wrapper %}
+
+<!-- Page Header -->
+<!-- Set your background image for this header on the line below. -->
+<header class="intro-header" style="background-image: url('{{ site.url }}{% if page.header %}{{ page.header }}{% else %}{{ site.header }}{% endif %}')">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<div class="site-heading">
+					<h1>{{ page.title }}</h1>
+					<hr class="small">
+					<span class="subheading">{{ page.description }}</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<article>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      {{ page.blocks.content|raw }}
+
+              <div class="tags">
+                Posted in:</br>
+                {% for category in page.categories %}
+                  <a href="{{ site.url }}/archive/categories/{{ category|url_encode(true) }}">
+                    <span class="label label-primary">
+                      {{ category }}
+                    </span>
+                  </a>&nbsp;{% if not loop.last %} {% endif %}
+                {% endfor %}
+              </div>
+              <div class="tags">
+                Tagged with:</br>
+                {% for tag in page.tags %}
+                  <a href="{{ site.url }}/archive/tags/{{ tag|url_encode(true) }}">
+                    <span class="label label-default">
+                      {{ tag }}
+                    </span>
+                  </a>&nbsp;{% if not loop.last %} {% endif %}
+                {% endfor %}
+              </div>
+              <hr>
+              <ul class="pager">
+                  {% if page.previous_post %}
+                  <li class="previous">
+                      <a href="{{ site.url }}{{ page.previous_post.url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous_post.title}}"><i class="fa fa-long-arrow-left"></i> Previous Post</a>
+                  </li>
+                  {% endif %}
+                  {% if page.next_post %}
+                  <li class="next">
+                      <a href="{{ site.url }}{{ page.next_post.url }}" data-toggle="tooltip" data-placement="top" title="{{page.next_post.title}}">Next Post <i class="fa fa-long-arrow-right"></i></a>
+                  </li>
+                  {% endif %}
+              </ul>
+
+          </div>
+      </div>
+  </div>
+</article>
+
+{% endblock %}

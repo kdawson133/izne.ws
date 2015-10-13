@@ -1,0 +1,32 @@
+{
+  "name": "izne.ws-V3",
+  "version": "1.0.0",
+  "description": "izne.ws blog",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdawson133/izne.ws-V3.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "kdawson133@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdawson133/izne.ws-V3/issues"
+  },
+  "homepage": "https://github.com/kdawson133/izne.ws-V3",
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-bower": "0.0.10",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-shell": "^0.4.3"
+  }
+}

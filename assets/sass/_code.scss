@@ -1,0 +1,13 @@
+article code {
+	color: #404040;
+	background-color: #D6D6D6;
+}
+article pre {
+	overflow-x: auto;
+	padding: 0;
+}
+article pre code {
+	overflow-wrap: normal;
+	white-space: pre;
+	font-size: 16px;
+}
