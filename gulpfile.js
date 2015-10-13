@@ -83,7 +83,7 @@ gulp.task('pro', shell.task([
   'sculpin generate --env=prod'
 ]));
 gulp.task('pub', shell.task([
-  'rsync -avze ssh --delete --exclude='.*' output_prod/  aso:public_html/izne.ws/'
+  "rsync -avze ssh --delete --exclude='.*' output_prod/  aso:public_html/izne.ws/"
 ]));
 
 gulp.task('default', ['copy']);
