@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
-{% include 'head.twig.html' %}
-  <body>
-{% include 'nav.twig.html' %}
-{% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
-{% include 'footer.twig.html' %}
-  </body>
+<html lang="en">
+	{% include 'head.twig.html' %}
+	<body>
+		{% include 'navigation.twig.html' %}
+      	{% block content_wrapper %}
+			{% block content %}
+			{% endblock %}
+		{% endblock %}
+		{% include 'footer.twig.html' %}
+	</body>
 </html>

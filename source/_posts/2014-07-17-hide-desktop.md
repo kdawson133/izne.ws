@@ -6,6 +6,7 @@ tags: [finder, desktop, icons]
 categories: [OSX]
 description: How to hide and unhide the desktop on OSX.
 header: /assets/img/osx.jpg
+highlight: true
 ---
 
 Desktop icon clutter can really impact workflow by overwhelming you with files and just too much stuff to look at. Inevitably, it can be hard to avoid since a lot of apps download things to the Desktop by default, we save things there, screenshots go there, it quickly becomes the generic catch-all location for documents and stuff that we’re working with. If you decide the desktop is just too much to deal with, you can actually toggle a secret setting in Mac OS X to turn off the desktop icons, thereby preventing them from being displayed at all.

@@ -5,6 +5,7 @@ tags: [elementary, atom, scratch, tools]
 categories: [Linux]
 description: Install Atom Editor in Elementary OS.
 header: /assets/img/linux.jpg
+highlight: true
 ---
 
 I have been a great fan of the [Atom Editor](https://atom.io/), which is an open-source editor from our friends over at [github](https://github.com/).

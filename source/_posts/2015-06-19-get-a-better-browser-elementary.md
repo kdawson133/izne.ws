@@ -5,6 +5,7 @@ tags: [elementary, chromium, firefox, midori, tools]
 categories: [Linux]
 description: How to install Chrome or Firefox and remove Midori in Elementary OS.
 header: /assets/img/linux.jpg
+highlight: true
 ---
 
 If your a keen web developer like me you probably want to test your sites with a few other browsers besides the default one in Elementary, Midori. Even if you are not a developer you may prefer another and i'm going to show you how.

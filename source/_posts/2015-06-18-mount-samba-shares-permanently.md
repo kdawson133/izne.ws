@@ -5,6 +5,7 @@ tags: [elementary, ubuntu, debian, network, samba]
 categories: [Linux]
 description: Mount Samba Shares Permanently in Elementary OS.
 header: /assets/img/linux.jpg
+highlight: true
 ---
 
 ## Prerequisites:

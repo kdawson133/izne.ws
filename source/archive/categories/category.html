@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Category Archive
-header: /assets/img/catagory.jpg
+header: /assets/img/category.jpg
 generator: [posts_category_index, pagination]
 pagination:
     provider: page.category_posts
@@ -14,11 +14,8 @@ pagination:
 
 <!-- Main Content -->
 
-<h1><center>
-  <span class="label label-primary"><i class="fa fa-folder-open">
-    </i>&nbsp;{{ page.category|title }}
-  </span>
-</center></h1>
+<h1><center>Posts in Category - {{ page.category|title }}</center></h1></br>
+
   {% for post in page.pagination.items %}
 
   {% set this_year %}{{ post.date | date("Y") }}{% endset %}
@@ -30,10 +27,7 @@ pagination:
   {% set this_month %}{{ post.date | date("F") }}{% endset %}
   {% if month != this_month %}
     {% set month = this_month %}
-    <br /><br /><h1><strong><center>
-      <span class="label label-success"><i class="fa fa-calendar">
-        </i>&nbsp;{{ month }} {{ year }}
-    </span></center></strong></h1>
+    <h1><strong><span class="label label-default"><i class="fa fa-calendar"></i> {{ month }} {{ year }}</span></strong></h1><hr>
   {% endif %}
 
   <div class="post-preview">

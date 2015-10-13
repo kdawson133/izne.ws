@@ -5,6 +5,7 @@ tags: [elementary, ubuntu, installer, apps]
 categories: [Linux]
 description: Install apps, icons and themes with the Oduso Installer for Ubuntu devivatives.
 header: /assets/img/linux.jpg
+highlight: true
 ---
 
 [Oduso Installer](https://oduso.com/) quickly installs apps, themes and icons. Just select the apps, themes, icons that you want to install and paste the generated command into the terminal and run. voilla!

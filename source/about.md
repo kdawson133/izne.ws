@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About IZNEWS
+title: "About: ISKIRK.NET"
 header: /assets/img/about.jpg
 ---
 
@@ -8,6 +8,8 @@ header: /assets/img/about.jpg
 
 Welcome to iznews. I'm Kirk and a budding web designer / developer and this is my place on the web to jot down some things that help me and may help someone else.
 
+<center>
+
 ## Keep in Touch
 
-Follow me [@iznewstoday](https://twitter.com/iznewstoday) or Find me at [GitHub](https://github.com/kdawson133) or Subscribe to [RSS](/feed.xml)
+</center>

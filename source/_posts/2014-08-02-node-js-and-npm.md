@@ -5,6 +5,7 @@ tags: [node.js, npm, javascript, homebrew, development]
 categories: [OSX]
 description: How to set up node.js and npm on OSX using Homebrew.
 header: /assets/img/osx.jpg
+highlight: true
 ---
 [Node.js](http://nodejs.org/) is gaining a lot of speed and is an exciting new development framework. Here's a quick overview of how to get Node.js working on OSX along with npm, the package manager for node.
 

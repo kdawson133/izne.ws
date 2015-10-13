@@ -5,6 +5,7 @@ tags: [apache, server, virtual-hosts, development]
 categories: [OSX]
 description: How to setup and configure Virtual Hosts with Apache on OS X 10.9 Mavericks.
 header: /assets/img/osx.jpg
+highlight: true
 ---
 
 Setting up Virtual Hosts with Apache on Mac OSX 10.9 Mavericks or Mountain Lion is quite straight forward if you have your local Web Development environment up and running - get your web development up and running first following the AMP stack guide [here](/archive/2014/07/19/Develpoment-Server) if required.

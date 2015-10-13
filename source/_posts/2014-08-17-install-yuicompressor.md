@@ -5,6 +5,7 @@ tags: [yui-compressor, minify, css, javascript, development]
 categories: [OSX]
 description: Install Yahoo's YUI compressor and use it in the terminal.
 header: /assets/img/osx.jpg
+highlight: true
 ---
 I have been searching for a simple command line utility to minify my `.js` and `.css`
 files to get faster loads on my static sites. Most of the available applications are for

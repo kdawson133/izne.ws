@@ -5,6 +5,7 @@ tags: [elementary, banshee, apps]
 categories: [Linux]
 description: Install the Banshee Music Player in Elementary OS.
 header: /assets/img/linux.jpg
+highlight: true
 ---
 
 As you may know, Banshee is an open source music player, developed by Novell. For encoding and decoding, it uses the GStreamer library. The latest version available is Banshee 2.9.0.

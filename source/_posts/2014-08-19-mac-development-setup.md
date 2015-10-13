@@ -5,6 +5,7 @@ tags: [node, python, ruby, terminal, apps, less, development, tools]
 categories: [OSX]
 description: A beginner's guide to setting up a development environment on Mac OSX.
 header: /assets/img/osx.jpg
+highlight: true
 ---
 ![Terminal](/images/terminal-mac-os-x.jpg)
 

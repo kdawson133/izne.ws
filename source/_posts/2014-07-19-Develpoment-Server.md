@@ -5,6 +5,7 @@ tags: [apache, mysql, php, phpmyadmin, development]
 categories: [OSX]
 description: Install and configure Apache, MySQL, PHP and phpMyAdmin on OSX.
 header: /assets/img/osx.jpg
+highlight: true
 ---
 
 With the new OSX Mavericks being installed faster than any of it's predecessors, getting the __AMP__ stack running on OSX 10.9 Mavericks is still straight forward. This tutorial will go through the process on getting __Apache__, __MySQL__, __PHP__ and __phpMyAdmin__ running on the new Mavericks OS X.

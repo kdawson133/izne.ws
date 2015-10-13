@@ -1,7 +1,7 @@
 .DS_Store
-.sculpin
-output_dev
-sculpin.lock
+components
 source/components
+node_modules
 output_dev
 output_prod
+/source/assets/css/extra.min.css

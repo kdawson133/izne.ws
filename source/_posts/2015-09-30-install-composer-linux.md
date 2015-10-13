@@ -5,6 +5,7 @@ author: 'Kirk'
 categories: [Linux]
 tags: [elementary, tools, apps, composer]
 header: /assets/img/linux.jpg
+highlight: true
 ---
 Installing Composer is fairly straight forward, however using it properly is a bit more complicated.
 

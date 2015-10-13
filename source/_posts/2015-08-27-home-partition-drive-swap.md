@@ -5,6 +5,7 @@ author: 'Kirk'
 categories: [Linux]
 tags: [repair, partition]
 header: /assets/img/linux.jpg
+highlight: true
 ---
 
 ___WARNING:___ Don't try this unless you understand what you are doing. You may end up with an unusable system.

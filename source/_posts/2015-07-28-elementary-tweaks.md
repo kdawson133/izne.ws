@@ -5,6 +5,7 @@ tags: [elementary, tweaks, hints]
 categories: [Linux]
 description: Install the Elementary Tweaks Customisation Tool.
 header: /assets/img/linux.jpg
+highlight: true
 ---
 
 ## About Elementary Tweaks

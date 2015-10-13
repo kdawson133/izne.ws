@@ -5,6 +5,7 @@ tags: [elementary, clementine, apps]
 categories: [Linux]
 description: How to install the Clementine music player in Elementary OS.
 header: /assets/img/linux.jpg
+highlight: true
 ---
 
 I have been playing around with my Elementary install for a couple of weeks so far and I'm very happy with it in general. The included music app Noise although it fits in very well visually it is a little on the the light side as far as features are concerned. So I thought I'd install an old favourite Clementine.

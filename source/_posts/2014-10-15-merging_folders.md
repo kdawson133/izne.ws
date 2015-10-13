@@ -5,6 +5,7 @@ tags: [ditto, development, tools]
 categories: [OSX]
 description: Using the ditto command to properly merge folders in OSX.
 header: /assets/img/osx.jpg
+highlight: true
 ---
 Merging folders on a Mac is usually troublesome to say the least. When you do it, Finder tries to overwrite any file with the same name with the newer version. That means it’s easy to accidentally erase a whole folder. This method is a better way to merge folders using Terminal.
 

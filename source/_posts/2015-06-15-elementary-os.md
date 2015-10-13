@@ -5,6 +5,7 @@ tags: [elementary, osx]
 categories: [Linux]
 description: Elementary OS and why I ditched Mac OSX.
 header: /assets/img/linux.jpg
+highlight: true
 ---
 I had a fairly mature set up on my late 2012 Mac Mini, but after a recent fresh install my thunderbolt port became bricked and the USB ports were misbehaving randomly ejecting, without any hope of fixing it with out a full logic board swap-out.
 

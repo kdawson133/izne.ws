@@ -6,6 +6,7 @@ author: "Kirk"
 tags: [elementary, ubuntu, trim, tweaks, hints]
 categories: [Linux]
 header: /assets/img/linux.jpg
+highlight: true
 ---
 
 TRIM allows your OS to wipe data on an SSD that are no longer considered in use. Without using TRIM your SSD speed will decrease over time. So if you have a SSD that supports TRIM, you should enable it to get the best performance from your SSD.

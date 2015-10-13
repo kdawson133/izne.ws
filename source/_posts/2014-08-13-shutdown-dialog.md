@@ -5,6 +5,7 @@ tags: [hints]
 categories: [OSX]
 description: Bring back the shutdown dialog when you press the Mac power button.
 header: /assets/img/osx.jpg
+highlight: true
 ---
 
 Pressing the Mac power button in OS X Mavericks puts your Mac to sleep. A simple Terminal command can change it to display the shutdown dialog instead.

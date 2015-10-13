@@ -5,6 +5,7 @@ tags: [ssh, server, development]
 categories: [OSX, Linux]
 description: How to set up ssh so you can log in to a remote server without a password using public key encryption.
 
+highlight: true
 ---
 Setting up passwordless SSH logins is a great way to speed up your workflow when regularly connecting to a remote host like using [rsync](https://en.wikipedia.org/wiki/Rsync) over ssh. OS X does not include the `ssh-copy-id` command and so we will have to find another way. This is how to do it and it doesn't take very long.
 

@@ -5,6 +5,7 @@ tags: [dnsmasq, dns, development]
 categories: [OSX]
 description: How to use dnsmasq to redirect to your development sites on OSX.
 header: /assets/img/osx.jpg
+highlight: true
 ---
 Most web developers will be familiar with the process of updating your <code>/etc/hosts</code> file to direct traffic for <code>megacoolproject.dev</code> to <code>127.0.0.1</code>. Most will also be familiar with the problems of this approach:
 - it requires a configuration change every time you add or remove a project; and

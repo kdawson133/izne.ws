@@ -5,6 +5,7 @@ tags: [terminal, iterm2, development, tools]
 categories: [OSX]
 description: Terminal Sexy creates custom terminal colour schemes.
 header: /assets/img/osx.jpg
+highlight: true
 ---
 Most Terminal apps come with a set of colour customisation options, but they can be difficult to tweak yourself. If you want to make your own the web app [Terminal Sexy](http://terminal.sexy/) makes it a simple affair.
 
